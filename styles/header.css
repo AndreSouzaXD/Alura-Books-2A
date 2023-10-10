@@ -2,6 +2,8 @@
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
 }
 
@@ -32,13 +34,15 @@
     display: block;
 }
 
-.lista-menu-titulo, .lista-menu-item{
+.lista-menu-titulo, 
+.lista-menu-item{
     padding: 1em;
     background-color: var(--branco);
 }
 
 .lista-menu-titulo{
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu-link{
@@ -47,4 +51,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase; 
+}
+.container-botao{
+    display: none;
 }
